@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<title>Curiosidades de Tecnologia</title>
+</head>
+<body>
+    <header> <!-- cabeçalho-->
+        <a href="index.html">
+            <img id="logo" src="img/logo.png" alt="Curiosidades de Tecnologia">
+        </a>
+        <nav id="social">
+            <ul>
+                <li>
+                    <a href="#">
+                    <img src="img/facebook-64x64.png" alt="Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    <img src="img/instagram-64x64.png" alt="Instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    <img src="img/whatsapp-64x64.png" alt="Whatsapp">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <nav id="menu"> <!-- Menu -->
+        <div id="menu-contraido">
+            <input type="checkbox">
+            <span></span>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="noticias.html">Notícias</a></li>
+            <li><a href="curiosidades.html">Curiosidades</a></li>
+            <li><a href="tecnologias.html">Tecnologias</a></li>
+            <li><a href="contato.html">Contato</a></li>     
+        </ul>
+        </div>
+    </nav>
+
+    <div id="content">
+        <!-- área de conteudo-->
+        <main><!-- divisão principal do site -->
+
+        <article class="individual">
+
+            <div>
+                <h1 id="titulo">Cadastro</h1>
+                <p>Complete suas Informações</p>
+                <br>
+            </div>
+
+            <form>
+                <fieldset>
+                    <div>
+                        <label>Nome:</label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+
+                    <div>
+                        <label>Sobrenome</label>
+                        <input type="text" name="sobrenome" id="sobrenome" required>
+                    </div>
+                </fieldset>
+
+                    <div>
+                        <label>Email</label>
+                        <input type="email" name="email" required>
+                    </div>
+                </fieldset>
+                <button type="submit">Concluído</button>
+            </form>
+            <!--artigo principal-->
+            <h1>Contato</h1>
+            <div class="foto-texto"><img src="img/logo.png" alt="Marmita congelada">
+            </div><br>
+
+            <p>Endereço: Rua Brasil, nº 123 - Centro - Franca/SP</p><br>
+
+            <p><a href="#"><img src="img/favicon-16x16.png" alt="Whatsapp"> (16)99999-8888
+            </a></p>
+
+            <p><a href="#"><img src="img/insta-16x16.png" alt="Instagram">Instagram</a></p>
+            
+            <p><a href="#"><img src="img/face-16x16.png" alt="Facebook">Facebook</a></p>
+        </article>
+
+    </main>
+    <aside>
+        <article>
+            <p>Nossos Parceiros</p>
+            <img src="img/lojainfo.jpg" alt="Loja" title="Informática">
+            <h1><a href="#">Sua loja de acessórios para informática.</a>
+            </h1></article>
+    <article>
+        <img src="img/games.png" alt="Games">
+            <h1><a href="#">Games e muito mais.</a>
+            </h1>
+    </article>
+    </aside>
+</div>
+
+<footer>
+    <!--rodapé-->
+    <a href="index.html">
+    <img src="img/logo.png" alt="Curiosidades de Tecnologia"></a>
+    <ul>
+        <li><a href="contato.html">Quem somos</a></li>
+            <li><a href="index.html">Nossa missão</a></li>
+            <li><a href="contato.html">Comercial</a></li>
+    </ul>
+    <address>
+        Rua Brasil, 123 <br>
+        Centro - Franca/SP<br>
+        <a href="tel:+551699999-8888">(16) 99999-8888</a><br>
+        <a href="mailto:tecnologia@gmail.com">tecnologia@gmail.com.br</a>
+    </address>
+</footer>
+</body>
+</html>
